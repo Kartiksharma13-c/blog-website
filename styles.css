@@ -1,0 +1,115 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-image: url("ok.png");
+    background-size:auto;
+    background-position: center; /* Ensure the image is centered */
+    color: #000000;
+    padding: 1em 0;
+    text-align: center;
+    height: 219px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.hello {
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a shadow for better readability */
+    padding: 0.5em;
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Choose a font that is easy to read */
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.blog-post {
+    margin-bottom: 40px;
+}
+
+.blog-post img {
+    height: 437px;
+    width: 625px;
+
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
